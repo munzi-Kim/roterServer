@@ -20,4 +20,4 @@ server.on("connection", function server_connect(socket){
     });
 });
 
-app.listen(2200, ()=>{ console.log("[ roter-server ] Greeting.")});
+httpServer.listen(2200, ()=>{ console.log("[ roter-server ] Greeting.")});
